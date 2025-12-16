@@ -8,19 +8,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Fraunces:wght@300;400;600;700&display=swap"
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="./assets/styles.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
   <body>
     <header class="header">
-      <nav class="opcoes-cabecalho-esquerda">
+      <div class="opcoes-cabecalho-esquerda">
+        <img src="./assets/img/menu.png" alt="" />
         <a href="#">Início</a>
         <a href="#">Cardápio</a>
-      </nav>
-
+      </div>
       <h1 class="titulo">Café Aurora</h1>
 
       <nav class="opcoes-cabecalho-direita">
@@ -28,13 +28,83 @@
         <a href="#">Seja vip</a>
       </nav>
     </header>
-<!-- 
-    <div class="">
-      <h2>Preparado até a perfeição</h2>
+
+    <div class="slogan-imagem-texto">
+      <div class="imagem-fundo1">
+        <img src="./assets/img/cafeteria.jpg" alt="" />
+      </div>
+
+      <div class="slogan-frase">
+        <label>Aurora - luz, calma, café</label>
+      </div>
+      <div class="slogan-subtitulo">
+        <p>Calma que aquece por dentro</p>
+      </div>
     </div>
-    <div class="sobre-nos">
-      <h3>Sobre Nós</h3>
-      <p>Nós somos uma cafeteria</p> -->
-    </div>
+
+    <section class="secao-bege">
+      <section class="texto-superior">
+        <h2>Clássicos do Aurora</h2>
+        <p>
+          Onde cada xícara guarda o sabor da nossa história. Nesta seleção,
+          reunimos os favoritos, que conquistaram o coração dos nossos clientes
+          - receitas atemporais, preparadas com calma, cuidado e aquele toque
+          que só o Aurora tem.
+        </p>
+      </section>
+
+      <section class="menu-classico">
+        <div class="card">
+          <img src="./assets/img/cafe1.jpg" alt="" class="img-cafe1" />
+          <h3>Cappuccino Clássico</h3>
+          <p>
+            Espresso, leite vaporizado e canela, feito com calma, para aquecer o
+            dia.
+          </p>
+          <p class="preco">R$ 7,90</p>
+        </div>
+        <div class="card">
+          <img src="./assets/img/panquecas.jpg" alt="" class="img-panquecas" />
+          <h3>Panquecas do Chef</h3>
+          <p>
+            Panquecas macias, melaço, sorvete de baunilha e raspas de chocolate.
+          </p>
+          <p class="preco">R$ 24,90</p>
+        </div>
+        <div class="card">
+          <img src="./assets/img/cafe2.jpg" alt="" class="img-cafe2" />
+          <h3>Caramel Iced Latte</h3>
+          <p>
+            Latte gelado com caramelo artesanal, cremoso, refrescante e doce na
+            medida certa.
+          </p>
+          <p class="preco">R$ 15,90</p>
+        </div>
+      </section>
+    </section>
+
+    <section class="secao-rodape">
+      <img src="./assets/img/cafe-rodape.jpg" alt="" class="cafe-rodape" />
+      <div class="promocao">
+        <div class="texto-promocao">
+          <h1>Promoção do dia</h1>
+          <p>O produto certo, no momento certo.</p>
+          <button>Produto do dia</button>
+        </div>
+        <div>
+          <img
+            src="./assets/img/croassaint-promocao.jpg"
+            alt="croassaint-promocao"
+          />
+        </div>
+      </div>
+
+      <div class="texto-rodape">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum,
+          corporis.
+        </p>
+      </div>
+    </section>
   </body>
 </html>
