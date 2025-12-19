@@ -224,20 +224,25 @@ body {
   position: absolute;
   background-color: #d4a373;
   top: 40%;
-  left: 10%;
-  padding: 40px;
+  left: 8%;
+  padding: 30px;
   height: 300px;
-  width: 300px;
+  width: 600px;
   display: flex;
-  border-radius: 10%;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+  gap: 10px;
 }
 
 .texto-promocao {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   text-align: center;
-  gap: 10px;
+  gap: 12px;
+  width: 100%;
 }
 
 .secao-rodape .texto-promocao {
@@ -281,18 +286,81 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  position: relative;
-  height: 300px;
+  height: 260px;
   width: auto;
-  left: 200px;
-  bottom: 35px;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
 }
 
-.secao-rodape .texto-rodape {
+.texto-direito {
+  position: absolute;
+  right: 8%;
+  top: 55%;
+  transform: translateY(-50%);
+  color: #f3d6af;
+  font-size: 40px;
+  text-align: right;
+  max-width: 300px;
+  font-family: "Fraunces", serif;
+}
+
+.secao-rodape,
+footer {
+  margin: 0;
+}
+
+footer {
+  background-color: #320000;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  margin: 0;
+}
+
+footer .texto-rodape {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
   background-color: #320000;
   color: antiquewhite;
   width: 100%;
   height: 100%;
-  padding: 50px 450px;
+  padding: 50px 1rem;
   font-family: "Fraunces", serif;
+  gap: 5px;
+}
+
+footer .texto-rodape .info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1100px;
+  gap: 1rem;
+  padding-right: 0;
+}
+
+footer .texto-rodape .info p {
+  flex: 1;
+}
+
+footer .texto-rodape .info p:nth-child(2) {
+  text-align: center;
+}
+
+footer .texto-rodape .info p:first-child {
+  text-align: left;
+}
+
+footer .texto-rodape .info p:last-child {
+  text-align: right;
+}
+
+footer .texto-rodape .copy {
+  margin-top: 20px;
+  font-size: small;
+  text-align: center;
+  opacity: 0.8;
 }
