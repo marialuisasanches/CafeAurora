@@ -68,7 +68,7 @@ Para rodar este projeto localmente:
 1. Clone este repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/cafe-aurora.git
+   https://github.com/marialuisasanches/CafeAurora.git
    ```
 
 2. Navegue até a pasta do projeto.
